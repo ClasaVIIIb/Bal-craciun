@@ -1,4 +1,6 @@
-document.getElementById("detaliiBtn").addEventListener("click", function() {
-    const detalii = document.getElementById("detalii");
-    detalii.classList.toggle("hidden");
+const btn = document.getElementById("detaliiBtn");
+const detalii = document.getElementById("detalii");
+
+btn.addEventListener("click", () => {
+    detalii.classList.toggle("show");
 });
